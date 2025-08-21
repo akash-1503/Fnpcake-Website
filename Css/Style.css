@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+} 
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+.c1 img{
+    height: 60px;
+    width: 190px;
+}
+#header2{
+    width: 100%;
+    background-color:rgb(125,128,53);
+    position: fixed;   
+    z-index: 99;
+}
+.c1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#l1{
+    margin-top: 15px;
+    padding: 25px;   
+    padding-bottom: 25px;
+}
+.c2{
+    padding: 5px;
+}
+/* Removed empty ruleset for #header2 div */
+ .c1 img{
+     width: 100%;
+} 
+img{
+    align-items: flex-start;
+    color: white;
+}  
+.fa-search{
+    color: white;
+    font-size: 20px;
+} 
+.fa-gift{
+    color: white;
+    font-size: 20px;
+}
+.fa-shopping-cart{
+    color: white;
+    font-size: 20px;
+}
+.fa-ellipsis-v{
+    color: white;
+    font-size: 20px;
+}
+#header3{
+    display: flex;
+    justify-content: space-evenly;
+    display: inline;
+    display: none;
+}
+#section2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(242, 221, 224) ;
+    border-radius: 10%;
+    justify-content: space-evenly;
+    margin: 10px;
+    overflow: hidden;
+}
+.child{
+    width: 40%;
+    border-radius: 30px;
+    margin: 10px;
+}
+.child img{
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgb(220, 137, 151);
+}
+#section3{
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(242, 221, 224) ;
+    margin: 10px;
+    padding: 2px;
+    overflow: hidden;
+}
+.child1{
+    width: 100%;
+}
+.child1 img{
+    width: 95%;
+    border-radius: 10%;
+    padding:2px ;
+    box-shadow: 10px 10px 10px rgb(220, 137, 151);
+}
+.child1 h4{
+    text-align: center;
+}
+#section4{
+    background-color:rgb(242, 221, 224) ;
+    border-radius: 10%;
+    margin: 10px;  
+    text-align: center;
+}
+#section4 div{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    background-color:rgb(242, 221, 224) ;
+    border-radius: 10%;
+}
+#section4 input{
+    width: 23%;
+    margin-left: 200px;
+    background-color:rgb(112,116,40);
+    color: white;
+}
+.child2{
+    width: 40%;
+}
+.child2 img{
+    width: 85%;
+    border-radius: 10%;
+}
+#section5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(242, 221, 224);
+    border-radius: 10%;
+    margin: 10px;  
+}
+#section5 h3{
+    text-align: center;
+    width: 100%;
+}
+.child3{
+   width: 26%;
+   margin: 10px;
+}
+.child3 img{
+    width: 100%;
+}
+#section6{
+    background-color:rgb(242, 221, 224);
+    border-radius: 10%;
+    margin: 10px;  
+    text-align: center;
+}
+#section6 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#section6 h3{
+    margin-left: 15px;
+}
+.child4{
+    width: 25%;
+    margin: 10px;
+}
+.child4 img{
+    width: 100%;
+    border-radius: 10%;
+}
+#section7{
+    text-align: center;
+    background-color:rgb(242, 221, 224);
+    border-radius: 10%;
+    margin: 10px;  
+}
+#section7 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.child5{
+    width: 35%;
+}
+.child5 img{
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 7px;
+    box-shadow: 10px 10px 10px rgb(220, 137, 151);
+}
+#section8{
+    text-align: center;
+    background-color:rgb(242, 221, 224);
+    border-radius: 10%;
+    margin: 10px;  
+}
+#section8 h3{
+    width: 100%;
+}
+#section8 #aaa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.child6{
+    width:26%;
+}
+.child6 img{
+    padding: 10px;
+    width: 100%;
+    border-radius: 100%;
+}
+#section9{
+    background-color:rgb(242, 221, 224);
+    border-radius: 10%;
+    margin: 10px;  
+}
+#section9 div{
+    text-align: center;
+    padding: 5px;
+}
+.child7 img{
+    text-align: center;
+    padding: 3px;
+}
+#section10 div{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: space-evenly;
+    
+}
+#section11{
+    display: flex;
+    flex-wrap: wrap;
+}
+.child9{
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+#section12{
+    display: flex;
+    justify-content: center;
+}
+#section12 div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+#section13 div{
+    font-size: 12px;
+    padding: 2px;
+}
+#f1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 15px;
+    border-top: 2px solid black;
+    background-color: rgb(208, 207, 207);
+}
+.child2 img:hover{
+    transform: translateY(-50px);  
+}
+.child4 img:hover{
+    transform: translateY(-50px);  
+}
+.child5 img:hover{
+    transform: translateY(-50px)
+}
+#section3{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.child1 h4{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#section4{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#section5{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#section6{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#section7{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#section8{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+@media only screen and (min-width:768px)
+{
+    #section2{
+        margin: 25px;
+    }
+    #section3{
+        margin: 25px;
+        padding-top: 15px;
+    }
+    .child1{
+        padding: 30px;
+        margin-left: 25px;
+    }
+    #section4{
+        margin: 25px;
+    }
+    
+    #section4 input{
+        display:none;
+    }
+    .child2{
+        margin-top: 50px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #section5{
+        margin: 25px;
+    }
+    #section6{
+        margin: 25px;
+    }
+    #section7{
+        margin: 25px;
+    }
+    #section8{
+        margin: 25px;
+    }
+    #section9{
+        margin: 25px;
+        font-size: 20px;
+    }
+    #section10 div{
+        font-size:20px;
+    }
+    .child9{
+        font-size:20px;
+        margin-top: 5px;
+    }
+    #section12 div{
+        padding: 10px;
+    }
+    #section13 div{
+        font-size: 17px;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width:1200px)
+{
+    #section1{
+        padding-top: 52px;
+    }
+    #section2{
+        margin: 80px;
+        margin-top: 20px;
+    }
+    .child{
+        padding:20px;
+    }
+    #section3 #ssss{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .child1{
+        width: 47%;
+        margin: 0px;
+    }
+    #section h3{
+        text-align: center;
+        width: 100%;
+    }
+    #section4{
+        margin: 80px;
+    }
+    #section4 div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .child2{
+        width: 30%;
+        padding: 20px;
+    }
+    #section5{
+        margin: 80px;
+    }
+    /* Removed empty ruleset for #section5 div */
+    #section6{
+        margin: 80px;
+        margin-bottom: 30px;
+    }
+    #section7{
+        margin: 80px;
+    }
+    #section7 div{
+        padding: 30px;
+    }
+    #section8{
+        margin: 80px;
+    }
+    .child6 img{
+        padding: 80px;
+        margin-bottom: 20px;
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    #section9{
+        font-size: 30px;
+        margin: 25px;
+        margin: 75px;
+    }
+    .child9{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    #section12 div{
+        margin: 35px;
+    }  
+}
